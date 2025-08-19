@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EduBoard – Student Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <nav class="sidebar">
+    <h1>EduBoard</h1>
+    <ul>
+      <li><a href="#"><i class="fa-solid fa-house"></i> Dashboard</a></li>
+      <li><a href="#"><i class="fa-solid fa-book"></i> Subjects</a></li>
+      <li><a href="#"><i class="fa-solid fa-calendar-check"></i> Attendance</a></li>
+      <li><a href="#"><i class="fa-solid fa-user"></i> Profile</a></li>
+      <li><a href="#"><i class="fa-solid fa-gear"></i> Settings</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main -->
+  <main> 
+    <!-- Header -->
+    <header>
+      <h2>Dashboard</h2>
+      <div class="profile">
+        <div class="icons"><i class="fa-solid fa-bell"></i></div>
+        <span>BN</span>
+        <img src="badri image.jpg" alt="Profile Picture">
+      </div>
+    </header>
+
+    <!-- Cards -->
+    <section class="cards">
+      <article class="card">
+        <h3>GPA</h3>
+        <p>3.8</p>
+      </article>
+      <article class="card">
+        <h3>Attendance</h3>
+        <p>92%</p>
+      </article>
+      <article class="card">
+        <h3>Assignments Due</h3>
+        <p>4</p>
+      </article>
+      <article class="card">
+        <h3>Total Credits</h3>
+        <p>18</p>
+      </article>
+    </section>
+
+    <!-- Progress Table -->
+    <section class="table-section">
+      <h2>Subject Progress</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Subject</th>
+            <th>Completion</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Mathematics</td>
+            <td>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;">
+                    </div>
+                </div>
+            </td>
+          </tr>
+          <tr>
+            <td>Physics</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 65%;"></div></div></td>
+          </tr>
+          <tr>
+            <td>Computer Science</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 90%;"></div></div></td>
+          </tr>
+          <tr>
+            <td>English</td>
+            <td><div class="progress-bar"><div class="progress" style="width: 70%;"></div></div></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Deadlines -->
+    <section class="deadlines">
+      <h2>Upcoming Deadlines</h2>
+      <div class="deadline">
+        <div class="date-badge">Aug 20</div>
+        <p>Math Assignment – Calculus Homework</p>
+      </div>
+      <div class="deadline">
+        <div class="date-badge">Aug 22</div>
+        <p>Physics Lab Report Submission</p>
+      </div>
+      <div class="deadline">
+        <div class="date-badge">Aug 25</div>
+        <p>Computer Science Project Proposal</p>
+      </div>
+    </section>
+
+    <!-- Profile Info -->
+    <section class="profile-card">
+      <h3>Student Profile</h3>
+      <p><strong>Name:</strong> John Doe</p>
+      <p><strong>Roll No:</strong> 2023001</p>
+      <p><strong>Email:</strong> john.doe@example.com</p>
+      <p><strong>College:</strong> XYZ University</p>
+      <p><strong>Department:</strong> Computer Science</p>
+    </section>
+  </main>
+</body>
+</html>
